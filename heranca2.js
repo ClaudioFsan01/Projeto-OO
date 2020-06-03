@@ -46,9 +46,12 @@ const volvo ={
 // Estabelecendo a relação de prototipos de uma forma diferente 
 
 Object.setPrototypeOf(ferrari, carro) /* estabelecido a relação entre o objeto ferrari e seu objeto prototipo carro */
+console.log(ferrari)
+ferrari.acelelar(250)
+console.log(ferrari.status())
+
 Object.setPrototypeOf(volvo, carro)
 
-console.log(ferrari)
 console.log(volvo)
 
 volvo.acelelar(100)
@@ -56,8 +59,7 @@ console.log(volvo.status())
 volvo.acelelar(150)
 console.log(volvo.status())
 
-ferrari.acelelar(250)
-console.log(ferrari.status())
+
 
 
 
