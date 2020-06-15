@@ -32,3 +32,5 @@ console.log(JSON.parse('{"a": 1, "b": 2, "c": 3}'))
 
 console.log(JSON.parse('{"a":1, "b": "String", "c": {}, "d": [], "e": true}'))
 // valor String deve ser colocado entre aspas duplas
+
+

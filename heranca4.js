@@ -53,5 +53,5 @@ console.log(Function.prototype.__proto__ === Object.prototype)
 
 console.log((new MeuObjeto).__proto__ === MeuObjeto.prototype)
 
-console.log(Object.prototype.__proto__ === null)
+console.log(Object.prototype.__proto__ === null) 
 
