@@ -37,6 +37,6 @@ const contas = new CicloFinanceiro(6, 2018)
 
 //contas.addLancamentos(salario, contaLuz)
 
-contas.addLancamentos(salrio, contaLuz)
+contas.addLancamentos(salario, contaLuz)
 console.log(contas.sumario())
 
